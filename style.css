@@ -1,0 +1,112 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:auto;
+    background-color: grey;
+    
+}
+h1{
+    color: greenyellow;
+    background-color: grey;
+}
+.main
+{
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.container
+{
+    margin-top: 7rem;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 90px 90px 90px;
+    grid-gap: 0.2rem;
+    /* border: 2px solid black; */
+    width: 600px;
+    background-color: grey;
+    
+    
+}
+.box
+{
+    
+    background-color:yellow;
+    border: 0px solid white;
+    border-radius: 5px;
+    font-size:xxx-large;
+    font-weight: bold;
+    color: greenyellow;
+}
+#resetbutton
+{
+    margin: auto;
+    width: 150px;
+    height: 40px;
+    margin-top: 5rem ;
+    color: greenyellow;
+    border: 2px solid yellow;
+    background-color: grey;
+}
+@media only screen and (max-width: 750px) {
+    .container
+    {
+        justify-content: center;
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: 60px 60px 60px;
+        grid-template-rows: 60px 60px 60px;
+        grid-gap: 0.2rem;
+        background-color: grey;
+    }
+    .box
+     {
+    background-color:yellow;
+    font-size:xx-large;
+    font-weight: bold;
+    color: greenyellow;
+    }
+  }
+
+  #resultbox
+  { 
+    width: 150px;;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: auto;
+    border: 1px solid black;
+    background-color: grey;
+    color: greenyellow;
+    border: 2px solid yellow;
+    border-radius: 20px;
+  }
+
+  @media only screen and (max-width: 430px) 
+  {
+      
+    #resultbox
+    { 
+      margin-left: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      margin-top: 700px;
+      margin-left: 130px;
+      border: 1px solid black;
+      background-color: grey;
+      color: greenyellow;
+      border: 2px solid yellow;
+      border-radius: 20px;
+    }
+  }
