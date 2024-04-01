@@ -94,11 +94,12 @@ h1{
       
     #resultbox
     { 
-      margin-left: 1rem;
+/*       margin-left: 1rem; */
+        margin:auto;
       display: flex;
       flex-direction: column;
-      align-items: center;
-      position: fixed;
+      align-items: baseline;
+/*       position: fixed; */
       padding-left: 1rem;
       padding-right: 1rem;
       margin-top: 700px;
