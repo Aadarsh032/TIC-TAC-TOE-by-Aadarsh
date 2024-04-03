@@ -94,20 +94,20 @@ function drawcheck()
 resetbutton.addEventListener("click",()=>
 {
     result.innerText="Winner ";
-     // To change the player after winning.(The one who wins will get the next gams turn
-    if(turn=="O"){
-       turn="X";
-    }
-    else{
-       turn="O";
-    }
+    //  // To change the player after winning.(The one who wins will get the next gams turn
+    // if(turn=="O"){
+    //    turn="X";
+    // }
+    // else{
+    //    turn="O";
+    // }
  
     boxes.forEach((box)=>
     {
         box.style.backgroundColor="yellow";
         box.disabled=false;
         box.innerText="";
-        // turn ="O"; 
+        turn ="O"; 
         count=0;
         counttext=0;
     })
